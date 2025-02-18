@@ -1,4 +1,4 @@
-# **2025-OBJPROG-LAB011**
+# **2025-OBJPROG-LAB015**
 Week 05 - Methods in Java
 
 Laboratory # 15 - Guided Coding Exercise 4: Variable Scope in Methods
