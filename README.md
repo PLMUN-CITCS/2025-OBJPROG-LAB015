@@ -121,11 +121,11 @@ Only perform this if this is the first time you will setup your Git Environment
       ```
 
    3. Start the Main Method
-      - Inside the class, type public static void main(String args) {}
+      - Inside the class, type public static void main(String[] args) {}
       ```Java
       public class VariableScope {
           //... (globalCount variable)...
-          public static void main(String args) {
+          public static void main(String[] args) {
       
           }
       }
@@ -136,7 +136,7 @@ Only perform this if this is the first time you will setup your Git Environment
       ```Java
       public class VariableScope {
           //... (globalCount variable)...
-          public static void main(String args) {
+          public static void main(String[] args) {
               System.out.println("Global Count (from main): " + globalCount);
           }
       }
@@ -173,7 +173,7 @@ Only perform this if this is the first time you will setup your Git Environment
       - In main, add: showScope();
       ```Java
       public class VariableScope {
-          public static void main(String args) {
+          public static void main(String[] args) {
               //... (other code in main)...
               showScope();
           }
